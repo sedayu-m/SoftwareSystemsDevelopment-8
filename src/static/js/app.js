@@ -1,7 +1,15 @@
 function App() {
-    const { Container, Row, Col } = ReactBootstrap;
+    const { Container, Row, Col, Navbar } = ReactBootstrap;
     return (
-        <Container>
+        <Container fluid>
+            {/* Header Section */}
+            <Navbar bg="dark" variant="dark" className="mb-4">
+                <Container>
+                    <Navbar.Brand>Your Name's Todo App</Navbar.Brand>
+                </Container>
+            </Navbar>
+
+            {/* Main Content */}
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />

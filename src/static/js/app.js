@@ -5,7 +5,7 @@ function App() {
             {/* Header Section */}
             <Navbar bg="dark" variant="dark" className="mb-4">
                 <Container>
-                    <Navbar.Brand>Your Name's Todo App</Navbar.Brand>
+                    <Navbar.Brand>MUHAMMAD HENDRICK SEDAYU-2311419</Navbar.Brand>
                 </Container>
             </Navbar>
 
